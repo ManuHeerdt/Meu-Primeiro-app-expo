@@ -1,10 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Meunome from './componentes/primeiroComponente.js'
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text> Emanuelly Campos Heerdt</Text>
+      <Meunome/>
       <StatusBar style="auto" />
     </View>
   );
