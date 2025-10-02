@@ -8,3 +8,10 @@ export default function Topo({titulo}){
     <Texto style={estilos.titulo}> {titulo} </Texto>
     </>
 }
+
+const estilos = StyleSheet.create ({
+    topo{
+        width:"100%",
+        height: 578/
+    }
+})
