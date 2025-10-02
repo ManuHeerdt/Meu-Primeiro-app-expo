@@ -1,22 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Meunome from './componentes/primeiroComponente.js'
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text> Emanuelly Campos Heerdt</Text>
-      <Meunome/>
-      <StatusBar style="auto" />
-    </View>
+   <SafeAreaView>
+     <StatusBar />
+   </SafeAreaView>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
